@@ -9,7 +9,7 @@
 	const module = 'form-choice';
 
 	// Macros
-	withDefaults(
+	const props = withDefaults(
 		defineProps<{
 			expanded?: boolean;
 			multiple?: boolean;
@@ -33,6 +33,8 @@
 	// Computed
 	const moduleClasses = computed(() => ({
 		[module]: true,
+		'bg-stone-100': !props.expanded,
+		'dark:bg-zinc-700': !props.expanded,
 	}));
 </script>
 

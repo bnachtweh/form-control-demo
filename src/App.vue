@@ -75,7 +75,12 @@
 			</FormRow>
 
 			<FormRow>
-				<button class="bg-teal-200 text-teal-900 p-4 rounded" type="submit">Submit</button>
+				<button
+					class="bg-teal-500 dark:bg-teal-200 text-white dark:text-teal-900 p-4 rounded"
+					type="submit"
+				>
+					Submit
+				</button>
 			</FormRow>
 
 			<FormRow>

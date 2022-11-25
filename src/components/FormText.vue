@@ -59,6 +59,8 @@
 		[`${module}--symbol`]: !!props.symbol,
 		rounded: true,
 		'p-2': true,
+		'bg-stone-100': true,
+		'dark:bg-zinc-700': true,
 	}));
 </script>
 
