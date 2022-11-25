@@ -1,7 +1,7 @@
 cmp
 <script setup lang="ts">
 	// Vendor
-	import { computed, useAttrs, useSlots } from 'vue';
+	import { computed, useSlots } from 'vue';
 	import { useFieldError } from 'vee-validate';
 
 	const module = 'o-form-widget';
