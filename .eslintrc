@@ -1,0 +1,13 @@
+{
+    "extends": "@netvlies/eslint-config-vue",
+    "rules": {
+        "vue/component-name-in-template-casing": [
+            "error",
+            "PascalCase",
+            {
+                "registeredComponentsOnly": true,
+                "ignores": []
+            }
+        ]
+    }
+}
