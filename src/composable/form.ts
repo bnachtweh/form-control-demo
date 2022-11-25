@@ -37,7 +37,7 @@ export const useFormWidgetContext = (
 
 	const props: ComputedRef<BaseFormProps> = computed(() => {
 		if (!targetEl.value?.props.name) {
-			warn('Input name not specified. This can lead to undesired behaviour');
+			warn('Input name not specified. This can lead to undesirable behaviour');
 		}
 
 		return {

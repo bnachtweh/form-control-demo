@@ -66,7 +66,7 @@
 
 			<FormRow>
 				<FormWidget
-					label="Who's your favorite colleague?"
+					label="Who's your favourite colleague?"
 					name="colleague_3"
 					rules="choiceEquals:Dennis"
 				>
